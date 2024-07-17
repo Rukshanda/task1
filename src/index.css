@@ -69,12 +69,17 @@
         align-items: center;
      }
     .email-container--first div{
-     
+       width: 100%;
         display: flex;
         flex-direction: column;
         
-          
     }
+
+    .email-container--first {
+      width: 100%;
+      border-bottom: #1aaca2 solid 2px;
+    }
+    
       
 
     .email-container--second {
@@ -131,6 +136,11 @@
 
      .email-container--third div{
       padding: 50px 10px 10px 10px !important;
+     }
+
+     .email ,.loc, .dev{
+      margin-left: 8px;
+      
      }
 
     

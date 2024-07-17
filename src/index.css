@@ -57,23 +57,25 @@
     /* CSS rules for mobile devices */
     .email-container{
         padding: 40px 40px;
-        
+        width: 100%;
+       display: flex !important;
+       align-items: center !important;
 
     }
-    .email-container--first, .email-container--second {
+    .email-container--first, .email-container--second , .email-container--third {
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
      }
     .email-container--first div{
      
         display: flex;
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        
           
     }
-     .loc p span{
-        padding-right: 0px !important;
-      }
+      
 
     .email-container--second {
         display: flex;
@@ -93,7 +95,8 @@
         padding-top: 10px;
         padding-bottom: 30px;
         text-align: center; 
-    }
+        align-items: center;
+     }
     .branding--text{
         padding-top: 20px;
     }
@@ -126,12 +129,16 @@
       flex-direction: row !important;
      }
 
+     .email-container--third div{
+      padding: 50px 10px 10px 10px !important;
+     }
+
     
   }
   
   
 
-  @media only screen and (max-width: 360px) {
+  @media only screen and (max-width: 390px) {
     .brand-video iframe{
       width: 320px !important;
       height: 200px !important;

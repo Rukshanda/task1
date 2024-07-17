@@ -1,0 +1,139 @@
+ 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ :root { 
+  --font :  "Poppins", sans-serif;
+  --primary-color : #1f1f1f;
+  --secondary-color : #1aaca2;
+  --font-color : #ffffff;
+ }
+
+
+
+ body{
+  background-color: var(--primary-color);
+  font-family: var(--font);
+  color: var(--font-color);
+
+ }
+
+ .br-left{
+    background-color: var(--secondary-color);
+    width: 1.6px;
+    height: 26vh;
+ }
+ .br-bottom{
+    border-bottom: 2px solid var(--secondary-color);
+ }
+
+ .sec-color{
+    color: var(--secondary-color);
+ }
+
+ .icon-bg{
+    background-color: var(--secondary-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+ }
+
+ .news-btn{
+    background-color: var(--secondary-color);
+    padding: 15px 8px;
+    border-radius: 10px;
+
+ }
+
+
+
+ /* Responsive Media queries */
+
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* CSS rules for mobile devices */
+    .email-container{
+        padding: 40px 40px;
+        
+
+    }
+    .email-container--first, .email-container--second {
+        width: 100%;
+     }
+    .email-container--first div{
+     
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+          
+    }
+     .loc p span{
+        padding-right: 0px !important;
+      }
+
+    .email-container--second {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+          
+    }
+    .email-container--second div {
+        flex-direction: column;
+        display: flex;
+      
+        align-items: center;
+    }
+    .branding{
+        width: 100%;
+        border-bottom: 2px solid var(--secondary-color);
+        padding-top: 10px;
+        padding-bottom: 30px;
+        text-align: center; 
+    }
+    .branding--text{
+        padding-top: 20px;
+    }
+    .branding--text p:nth-child(3){
+        text-align: center;
+    }
+    
+    .email-container--first .br-left {
+        display: none;
+    }
+    
+    .connect{
+        padding-top: 30px;
+    
+     }
+     .logo-text{
+        width: 150px !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between;
+
+     }
+
+     .social-area{
+        padding-top: 30px;
+     }
+
+     .icons div {
+      display: flex;
+      flex-direction: row !important;
+     }
+
+    
+  }
+  
+  
+
+  @media only screen and (max-width: 360px) {
+    .brand-video iframe{
+      width: 320px !important;
+      height: 200px !important;
+    }
+  }

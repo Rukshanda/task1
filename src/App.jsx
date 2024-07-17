@@ -92,7 +92,7 @@ function App() {
            </div>
         </div>
         {/* ------Thiird Container------- */}
-        <div className="email-container--first w-[80%]">
+        <div className="email-container--third w-[80%]">
           <div className="px-[70px] pt-[50px] pb-[10px]">
             <div className="brand-video">
             <iframe width="360" height="215" src="https://www.youtube.com/embed/qlgXO_kE5eY?si=zzaRbTDx-wv_rIx9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
